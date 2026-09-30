@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+:root {
+    --Gold-500: hsl(31, 77%, 52%);
+    --Cyan-800: hsl(184, 100%, 22%);
+    --Green-950: hsl(179, 100%, 13%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh; /* تعديل مهم لكي يتمدد المحتوى بحرية على الموبايل */
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%); /* إضافة خلفية خفيفة لتبين الحدود */
+    padding: 40px 20px; /* إضافة مساحة أمان حول الحاوية */
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 920px;
+    border-radius: 8px;
+    overflow: hidden;  
+}
+
+img {
+    margin-bottom: 25px;
+    width: 64px;
+}
+
+.card1 {
+    background-color: var(--Gold-500);
+    padding: 48px;
+}
+
+.card2 {
+    background-color: var(--Cyan-800);
+    padding: 48px;
+}
+
+.card3 {
+    background-color: var(--Green-950);
+    padding: 48px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 36px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 40px;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    line-height: 1.75;
+}
+
+button {
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.card1 button {
+    color: var(--Gold-500);
+}
+
+.card2 button {
+    color: var(--Cyan-800);
+}
+
+.card3 button {
+    color: var(--Green-950);
+}
+
+button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+/* التجاوب مع الشاشات الصغيرة (الموبايل) */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        max-width: 327px;
+    }
+    
+    .card1, .card2, .card3 {
+        padding: 35px;
+    }
+}
