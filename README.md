@@ -2,9 +2,15 @@
 
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-UIC2T9JE).
 
+
 🚀 **Live Demo**
 
 - [View Live Site](https://d13hn.github.io/column-preview-card-component-main/)
+
+- ## 📸 Screenshot
+
+![Screenshot](./screenshot.jpg)
+
 
 👋 **Welcome!**
 
