@@ -4,7 +4,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 🚀 **Live Demo**
 
-- [View Live Site](قم_بوضع_رابط_موقعك_هنا)
+- [View Live Site](https://d13hn.github.io/column-preview-card-component-main/)
 
 👋 **Welcome!**
 
